@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export const api = axios.create({
-	baseURL: 'https://handsome-insurance-production.up.railway.app/api/v1',
+	baseURL: 'http://localhost:4000/api/v1',
 });

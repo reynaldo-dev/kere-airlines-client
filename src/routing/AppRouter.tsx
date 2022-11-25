@@ -87,7 +87,7 @@ export const AppRouter = () => {
 						}
 					>
 						<Route
-							path="/"
+							index
 							element={
 								<PrivateRoute>
 									<Client />
@@ -95,7 +95,7 @@ export const AppRouter = () => {
 							}
 						/>
 						<Route
-							path="ticket"
+							path="ticket/:destination"
 							element={
 								<PrivateRoute>
 									<Ticket />
